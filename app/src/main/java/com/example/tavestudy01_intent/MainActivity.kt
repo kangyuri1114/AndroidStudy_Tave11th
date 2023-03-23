@@ -1,6 +1,7 @@
 package com.example.tavestudy01_intent
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -21,5 +22,10 @@ class MainActivity : AppCompatActivity() {
         intent2.putExtra("Data1", "Hello World")
         intent2.putExtra("Data2", 2023)
         btnThrowValue.setOnClickListener{startActivity(intent2)}
+
+        val btnUrl: Button = findViewById(R.id.btnUrl)
+        val url = "https://www.naver.com/"
+        val intent3 = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        btnUrl.setOnClickListener{startActivity(intent3)}
     }
 }

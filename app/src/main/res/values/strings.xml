@@ -4,4 +4,5 @@
     <string name="sub_activity">Sub Activity</string>
     <string name="go_to_subactivity">Go to SubActivity</string>
     <string name="main_activity">Main Activity</string>
+    <string name="naver">Naver</string>
 </resources>
