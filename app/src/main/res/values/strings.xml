@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TaveStudy04_Room</string>
+    <string name="insert">Insert</string>
+    <string name="user_list">User List</string>
 </resources>
