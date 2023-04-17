@@ -1,6 +1,7 @@
 package com.example.tavestudy04_room
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 
@@ -14,5 +15,8 @@ import androidx.room.Query
         fun getAll(): List<UserTable>
 
         @Insert
-        fun insertUser(user: UserTable)
+        fun insertAll(user: UserTable)
+
+        @Delete
+        fun delete(user: UserTable)
     }
