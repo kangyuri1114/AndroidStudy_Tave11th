@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">TaveStudy01_Intent</string>
-    <string name="go_back">Go Back</string>
-    <string name="sub_activity">Sub Activity</string>
-    <string name="go_to_subactivity">Go to SubActivity</string>
-    <string name="main_activity">Main Activity</string>
-
-</resources>
